@@ -1,4 +1,4 @@
-# Installing serpico
+# Install serpico
 #!/bin/bash
 
 username=$(whoami)
