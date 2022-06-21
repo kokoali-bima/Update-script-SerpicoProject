@@ -45,7 +45,7 @@ cd /opt/serpico/
 
 gem install bundler
 
-sudo -u serpico -H bundle install
+bundle install
 
 # Initialize the findings database
 echo "|+| Please run 'ruby scripts/first_time.rb' to complete the installation"
