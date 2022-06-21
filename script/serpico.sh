@@ -3,8 +3,6 @@
 
 username=$(whoami)
 
-sudo adduser --disabled-login --gecos 'serpico' serpico
-
 sudo ln -s /bin/mkdir /usr/bin/mkdir
 
 apt-get -y install curl git wget
@@ -42,8 +40,6 @@ apt-get -y install libsqlite3-dev libxslt-dev libxml2-dev zlib1g-dev gcc
 
 # Get and install the development version of Serpico
 git clone https://github.com/SerpicoProject/Serpico.git /opt/serpico
-
-chown -R serpico:serpico /opt/serpico
 
 cd /opt/serpico/
 
