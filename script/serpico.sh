@@ -8,10 +8,10 @@ sudo ln -s /bin/mkdir /usr/bin/mkdir
 apt-get -y install curl git wget
 
 # Use this to download the rvm gpg
-\curl -sSL https://rvm.io/mpapis.asc | sudo gpg --import -
+curl -sSL https://rvm.io/mpapis.asc | sudo gpg --import -
 
 # Download and install the stable version of RVM in multi user mode
-\curl -sSL https://get.rvm.io | sudo bash -s stable
+curl -sSL https://get.rvm.io | sudo bash -s stable
 
 curl -sSL https://rvm.io/pkuczynski.asc | sudo gpg --import -
 adduser root rvm
